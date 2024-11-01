@@ -3,71 +3,75 @@
         <meta charset="utf-8"/>
         <title>Menu Page</title>
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="index.css" />
     </head>
 
     <body>
-    <main>
-        <a href="letter_markup.html">To letter</a>
-
-        <div class="headers-box">
-            <h1>This is heading 1</h1>
-            <h2>This is heading 2</h2>
-            <h3>This is heading 3</h3>
-        </div>
+        <div id="root">
+            <main>
+                <a href="letter_markup.html">To letter</a>
         
-        <div class="lists-box">
-            <ul>
-                <li>This is</li>
-                <li>an unordered list</li>
-            </ul>
-            <ol>
-                <li>This is</li>
-                <li>an ordered list</li>
-            </ol>
-            <ol>
-                <li>
-                    This is the heading
+                <div class="header-box">
+                    <h1>This is heading 1</h1>
+                    <h2>This is heading 2</h2>
+                    <h3>This is heading 3</h3>
+                </div>
+                
+                <div class="lists-box">
                     <ul>
                         <li>This is</li>
-                        <li>a list in list</li>
+                        <li>an unordered list</li>
                     </ul>
                     <ol>
                         <li>This is</li>
-                        <li>a list in list</li>
+                        <li>an ordered list</li>
                     </ol>
-                </li>
-            </ol>
-        </div>
+                    <ol>
+                        <li>
+                            This is the heading
+                            <ul>
+                                <li>This is</li>
+                                <li>a list in list</li>
+                            </ul>
+                            <ol>
+                                <li>This is</li>
+                                <li>a list in list</li>
+                            </ol>
+                        </li>
+                    </ol>
+                </div>
+                
+                <p><a>this is a link with no target</a></p>
+                <p><a href="www.google.com" >this is a link with a target</a></p>
+                <p><a href="www.google.com" title="Google is a search engine">this is a link with a target and description of target</a></p>
+                <p><blockquote cite="www.google.com">This is a block quote</blockquote></p>
+                <p><code>this is a code block</code></p>
+                <p><q cite="www.google.com">this is an inline quotation</q></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <img src="" alt=""/>
+                <figure>
+                    <img src="" alt=""/>
+                    <figcaption>
         
-        <p><a>this is a link with no target</a></p>
-        <p><a href="www.google.com" >this is a link with a target</a></p>
-        <p><a href="www.google.com" title="Google is a search engine">this is a link with a target and description of target</a></p>
-        <p><blockquote cite="www.google.com">This is a block quote</blockquote></p>
-        <p><code>this is a code block</code></p>
-        <p><q cite="www.google.com">this is an inline quotation</q></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <img src="" alt=""/>
-        <figure>
-            <img src="" alt=""/>
-            <figcaption>
-
-            </figcaption>
-        </figure>
-        <video>
-            <p>this is the fallback content in case client does not support html vid </p>
-        </video>
-
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/E8oK9kRncYs?si=RAhYT-an9_u5jkDv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </figcaption>
+                </figure>
+                <video>
+                    <p>this is the fallback content in case client does not support html vid </p>
+                </video>
+        
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/E8oK9kRncYs?si=RAhYT-an9_u5jkDv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+                <svg  width="300" height="200">
+                    <rect  width="100%" height="100%" fill="green"/>
+                </svg>
+            
+            
+            </main>
+        </div>
     
-        <svg  width="300" height="200">
-            <rect  width="100%" height="100%" fill="green"/>
-        </svg>
-    
-    
-    </main>
     </body>
     <footer></footer>
 </html>
